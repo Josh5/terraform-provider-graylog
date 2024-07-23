@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/suzuki-shunsuke/flute/v2/flute"
 
-	"github.com/zahiar/terraform-provider-graylog/graylog/convert"
-	"github.com/zahiar/terraform-provider-graylog/graylog/testutil"
+	"github.com/josh5/terraform-provider-graylog/graylog/convert"
+	"github.com/josh5/terraform-provider-graylog/graylog/testutil"
 )
 
 func TestAccDashboardWidgetPositions(t *testing.T) {

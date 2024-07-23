@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/suzuki-shunsuke/flute/v2/flute"
 
-	"github.com/zahiar/terraform-provider-graylog/graylog/testutil"
+	"github.com/josh5/terraform-provider-graylog/graylog/testutil"
 )
 
 func TestAccInputStaticFields(t *testing.T) {

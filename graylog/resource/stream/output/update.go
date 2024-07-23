@@ -6,8 +6,8 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 
-	"github.com/zahiar/terraform-provider-graylog/graylog/client"
-	"github.com/zahiar/terraform-provider-graylog/graylog/convert"
+	"github.com/josh5/terraform-provider-graylog/graylog/client"
+	"github.com/josh5/terraform-provider-graylog/graylog/convert"
 )
 
 func update(d *schema.ResourceData, m interface{}) error {

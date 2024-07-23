@@ -6,7 +6,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 
-	"github.com/zahiar/terraform-provider-graylog/graylog/client"
+	"github.com/josh5/terraform-provider-graylog/graylog/client"
 )
 
 func create(d *schema.ResourceData, m interface{}) error {

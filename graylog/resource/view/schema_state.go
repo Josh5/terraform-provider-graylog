@@ -3,7 +3,7 @@ package view
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 
-	"github.com/zahiar/terraform-provider-graylog/graylog/util"
+	"github.com/josh5/terraform-provider-graylog/graylog/util"
 )
 
 var schemaState = &schema.Schema{
